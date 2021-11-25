@@ -8,6 +8,25 @@ print('ta - ja figura ir taisnstūris')
 print('k - ja figura ir kvadrāts')
 print('R -  ja figūra ir riņķis')
 print('_________________________________________________________')
+
+
+def taisnsturis():
+  a = int(input("Ievadi ta garumu"))
+  b = int(input("Ievadi ta platumu"))
+  laukums4 = a*b
+  print(laukums4)
+
+def kvadrats():
+  a = int(input("Ievadi kvadrāta malas garumu"))
+  laukums5 = a*a
+  print(laukums5)
+
+def rinkis():
+  a = 3.14
+  b = int(input("Ievadi riņķa rādiusu"))
+  laukums6 = a*(b*b)
+  print(laukums6)
+
 def trijsturis():
   a = int(input('ievadi malas garumu'))
   h = int(input("ievadi trijstūra augstumu"))
@@ -26,4 +45,5 @@ def paralelograms():
   print(laukums3)
 
 figura = int(input('ievadi izvēlēto figūras saīsinājumu, kurus vēlies aprēkināt'))
+
 
