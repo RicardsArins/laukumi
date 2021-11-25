@@ -44,6 +44,18 @@ def paralelograms():
   laukums3 = malas_garums * augstums
   print(laukums3)
 
-figura = int(input('ievadi izvēlēto figūras saīsinājumu, kurus vēlies aprēkināt'))
+figura = input('ievadi izvēlēto figūras saīsinājumu, kurus vēlies aprēkināt: ')
+if figura == "T":
+  trijsturis()
+if figura == "tr":
+  trapece()
+if figura == "p":
+  paralelograms()
+if figura == "ta":
+  taisnsturis()
+if figura == "k":
+  kvadrats()
+if figura == "R":
+  rinkis()
 
 
